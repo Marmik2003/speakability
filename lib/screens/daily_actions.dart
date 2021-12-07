@@ -34,114 +34,141 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       {
         'icon': 'assets/images/medicine.png',
         'title': 'Medicine',
+        'voice': 'medicine_e.mp3',
       },
       {
         'icon': 'assets/images/query.png',
         'title': 'Need Help',
+        'voice': 'help_e.mp3',
       },
       {
         'icon': 'assets/images/bottled-water.png',
         'title': 'Drink Water',
+        'voice': 'water_e.mp3',
       },
       {
         'icon': 'assets/images/fruit-basket.png',
         'title': 'Eat Fruit',
+        'voice': 'fruit_e.mp3',
       },
       {
         'icon': 'assets/images/eating.png',
         'title': 'Eat something',
+        'voice': 'hungry_e.mp3',
       },
       {
         'icon': 'assets/images/breakfast.png',
         'title': 'Eat Breakfast',
+        'voice': 'breakfast_e.mp3',
       },
       {
         'icon': 'assets/images/fan.png',
         'title': 'Turn on fan',
+        'voice': 'fan_e.mp3',
       },
       {
         'icon': 'assets/images/lightbulb.png',
         'title': 'Turn on light',
+        'voice': 'light_e.mp3',
       },
       {
         'icon': 'assets/images/screen.png',
         'title': 'Watch TV',
+        'voice': 'tv_e.mp3',
       },
     ],
     'Hindi': [
       {
         'icon': 'assets/images/medicine.png',
         'title': 'दवा',
+        'voice': 'medicine_h.mp3',
       },
       {
         'icon': 'assets/images/query.png',
         'title': 'मदद चाहिए',
+        'voice': 'help_h.mp3',
       },
       {
         'icon': 'assets/images/bottled-water.png',
         'title': 'पानी दीजिए',
+        'voice': 'water_h.mp3',
       },
       {
         'icon': 'assets/images/fruit-basket.png',
         'title': 'फल खाने है',
+        'voice': 'fruit_h.mp3',
       },
       {
         'icon': 'assets/images/eating.png',
         'title': 'भूख लगी है',
+        'voice': 'hungry_h.mp3',
       },
       {
         'icon': 'assets/images/breakfast.png',
         'title': 'नाश्ता करना है',
+        'voice': 'breakfast_h.mp3',
       },
       {
         'icon': 'assets/images/fan.png',
         'title': 'फैन चालू करें',
+        'voice': 'fan_h.mp3',
       },
       {
         'icon': 'assets/images/lightbulb.png',
         'title': 'बत्ती चालू करें',
+        'voice': 'light_h.mp3',
       },
       {
         'icon': 'assets/images/screen.png',
         'title': 'टीवी चालू करें',
+        'voice': 'tv_h.mp3',
       },
     ],
     'Gujarati': [
       {
         'icon': 'assets/images/medicine.png',
         'title': 'દવા',
+        'voice': 'medicine_g.mp3',
       },
       {
         'icon': 'assets/images/query.png',
         'title': 'મદદ કરો',
+        'voice': 'help_g.mp3',
       },
       {
         'icon': 'assets/images/bottled-water.png',
         'title': 'પાણી પીવું છે',
+        'voice': 'water_g.mp3',
       },
       {
         'icon': 'assets/images/fruit-basket.png',
         'title': 'ફળ ખાવું છે',
+        'voice': 'fruit_g.mp3',
       },
       {
         'icon': 'assets/images/eating.png',
         'title': 'ભૂખ લાગી છે',
+        'voice': 'hungry_g.mp3',
       },
       {
         'icon': 'assets/images/breakfast.png',
         'title': 'નાસ્તો કરવો છે',
+        'voice': 'breakfast_g.mp3',
       },
       {
         'icon': 'assets/images/fan.png',
         'title': 'પંખો ચાલુ કરો',
+        'voice': 'fan_g.mp3',
       },
       {
         'icon': 'assets/images/lightbulb.png',
         'title': 'લાઇટ કરો',
+        'voice': 'light_g.mp3',
       },
       {
         'icon': 'assets/images/screen.png',
         'title': 'ટીવી કરો',
+        'voice': 'tv_g.mp3',
       },
     ],
   };
@@ -166,6 +193,7 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
                   return SpeakingCard(
                     title: data['title'],
                     icon: data['icon'],
+                    voice: data['voice'],
                   );
                 }).toList(),
               ),
