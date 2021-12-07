@@ -34,81 +34,81 @@ class _SchoolActivitiesScreenState extends State<SchoolActivitiesScreen> {
       {
         'icon': 'assets/images/school-building.png',
         'title': 'School Time',
-        'voice': 'assets/voices/schooltime_e.mp3',
+        'voice': 'schooltime_e.mp3',
       },
       {
         'icon': 'assets/images/homepage.png',
         'title': 'Go Home',
-        'voice': 'assets/voices/home_e.mp3',
+        'voice': 'home_e.mp3',
       },
       {
         'icon': 'assets/images/book.png',
         'title': 'Need Book',
-        'voice': 'assets/voices/book_e.mp3',
+        'voice': 'book_e.mp3',
       },
       {
         'icon': 'assets/images/pen.png',
         'title': 'Need Pen',
-        'voice': 'assets/voices/pen_e.mp3',
+        'voice': 'pen_e.mp3',
       },
       {
         'icon': 'assets/images/pencil.png',
         'title': 'Need Pencil',
-        'voice': 'assets/voices/pencil_e.mp3',
+        'voice': 'pencil_e.mp3',
       },
     ],
     'Hindi': [
       {
         'icon': 'assets/images/school-building.png',
         'title': 'स्कूल समय',
-        'voice': 'assets/voices/schooltime_h.mp3',
+        'voice': 'schooltime_h.mp3',
       },
       {
         'icon': 'assets/images/homepage.png',
         'title': 'घर जाना है',
-        'voice': 'assets/voices/home_h.mp3',
+        'voice': 'home_h.mp3',
       },
       {
         'icon': 'assets/images/book.png',
         'title': 'पुस्तक चाहिए',
-        'voice': 'assets/voices/book_h.mp3',
+        'voice': 'book_h.mp3',
       },
       {
         'icon': 'assets/images/pen.png',
         'title': 'पेन चाहिए',
-        'voice': 'assets/voices/pen_h.mp3',
+        'voice': 'pen_h.mp3',
       },
       {
         'icon': 'assets/images/pencil.png',
         'title': 'पेंसिल चाहिए',
-        'voice': 'assets/voices/pencil_h.mp3',
+        'voice': 'pencil_h.mp3',
       },
     ],
     'Gujarati': [
       {
         'icon': 'assets/images/school-building.png',
         'title': 'શાળાનો સમય',
-        'voice': 'assets/voices/schooltime_g.mp3',
+        'voice': 'schooltime_g.mp3',
       },
       {
         'icon': 'assets/images/homepage.png',
         'title': 'ઘરે જવું',
-        'voice': 'assets/voices/home_g.mp3',
+        'voice': 'home_g.mp3',
       },
       {
         'icon': 'assets/images/book.png',
         'title': 'પુસ્તક જોઈએ',
-        'voice': 'assets/voices/book_g.mp3',
+        'voice': 'book_g.mp3',
       },
       {
         'icon': 'assets/images/pen.png',
         'title': 'પેન જોઈએ',
-        'voice': 'assets/voices/pen_g.mp3',
+        'voice': 'pen_g.mp3',
       },
       {
         'icon': 'assets/images/pencil.png',
         'title': 'પેંસિલ જોઈએ',
-        'voice': 'assets/voices/pencil_g.mp3',
+        'voice': 'pencil_g.mp3',
       },
     ],
   };

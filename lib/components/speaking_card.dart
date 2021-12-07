@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter/services.dart';
+import 'package:soundpool/soundpool.dart';
 
 class SpeakingCard extends StatelessWidget {
   String icon;
@@ -13,20 +14,20 @@ class SpeakingCard extends StatelessWidget {
     required this.voice,
   }) : super(key: key);
 
-  late final AudioCache _audioCache;
-
-  @override
-  void initState() {
-    _audioCache = AudioCache(
-      prefix: 'voices/',
-      fixedPlayer: AudioPlayer()..setReleaseMode(ReleaseMode.STOP),
-    );
-  }
+  final Soundpool _soundpool = Soundpool(streamType: StreamType.music);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => _audioCache.play(voice),
+      onTap: () async {
+        int soundId = await rootBundle
+            .load('assets/voices/$voice')
+            .then((ByteData soundData) {
+          return _soundpool.load(soundData);
+        });
+        _soundpool.play(soundId);
+        print('here');
+      },
       child: Container(
         width: MediaQuery.of(context).size.width * 0.20,
         height: MediaQuery.of(context).size.width * 0.20,
