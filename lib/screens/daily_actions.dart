@@ -75,11 +75,11 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       },
       {
         'icon': 'assets/images/query.png',
-        'title': 'मदद करें',
+        'title': 'मदद चाहिए',
       },
       {
         'icon': 'assets/images/bottled-water.png',
-        'title': 'पानी दें',
+        'title': 'पानी दीजिए',
       },
       {
         'icon': 'assets/images/fruit-basket.png',
@@ -87,7 +87,7 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       },
       {
         'icon': 'assets/images/eating.png',
-        'title': 'कुछ खाना है',
+        'title': 'भूख लगी है',
       },
       {
         'icon': 'assets/images/breakfast.png',
@@ -103,7 +103,7 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       },
       {
         'icon': 'assets/images/screen.png',
-        'title': 'टीवी देखें',
+        'title': 'टीवी चालू करें',
       },
     ],
     'Gujarati': [
@@ -117,27 +117,27 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       },
       {
         'icon': 'assets/images/bottled-water.png',
-        'title': 'પાનિ દેવો',
+        'title': 'પાણી પીવું છે',
       },
       {
         'icon': 'assets/images/fruit-basket.png',
-        'title': 'ફલ ખરેખર કરો',
+        'title': 'ફળ ખાવું છે',
       },
       {
         'icon': 'assets/images/eating.png',
-        'title': 'કુછ ખરેખર કરો',
+        'title': 'ભૂખ લાગી છે',
       },
       {
         'icon': 'assets/images/breakfast.png',
-        'title': 'સામનો ખરેખર કરો',
+        'title': 'નાસ્તો કરવો છે',
       },
       {
         'icon': 'assets/images/fan.png',
-        'title': 'ફાન ચાલુ કરો',
+        'title': 'પંખો ચાલુ કરો',
       },
       {
         'icon': 'assets/images/lightbulb.png',
-        'title': 'બતાવણી ચાલુ કરો',
+        'title': 'લાઇટ કરો',
       },
       {
         'icon': 'assets/images/screen.png',
