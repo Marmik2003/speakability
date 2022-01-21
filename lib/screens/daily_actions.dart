@@ -32,6 +32,36 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
   final Map<String, List<Map<String, dynamic>>> _data = {
     'English': [
       {
+        'icon': 'assets/images/morning.png',
+        'title': 'Good Morning',
+        'voice': 'morning_e.mp3',
+      },
+      {
+        'icon': 'assets/images/good_night.png',
+        'title': 'Good Night',
+        'voice': 'night_e.mp3',
+      },
+      {
+        'icon': 'assets/images/welcome.png',
+        'title': 'Welcome',
+        'voice': 'welcome_e.mp3',
+      },
+      {
+        'icon': 'assets/images/hello.png',
+        'title': 'Hello',
+        'voice': 'hello_e.mp3',
+      },
+      {
+        'icon': 'assets/images/thanks.png',
+        'title': 'Thank you',
+        'voice': 'thank_e.mp3',
+      },
+      {
+        'icon': 'assets/images/bye-icon.png',
+        'title': 'Bye',
+        'voice': 'bye_e.mp3',
+      },
+      {
         'icon': 'assets/images/medicine.png',
         'title': 'Medicine',
         'voice': 'medicine_e.mp3',
@@ -79,6 +109,36 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
     ],
     'Hindi': [
       {
+        'icon': 'assets/images/morning.png',
+        'title': 'सुप्रभात',
+        'voice': 'morning_h.mp3',
+      },
+      {
+        'icon': 'assets/images/good_night.png',
+        'title': 'शुभ रात्रि',
+        'voice': 'night_h.mp3',
+      },
+      {
+        'icon': 'assets/images/welcome.png',
+        'title': 'स्वागत',
+        'voice': 'welcome_h.mp3',
+      },
+      {
+        'icon': 'assets/images/hello.png',
+        'title': 'नमस्ते',
+        'voice': 'hello_h.mp3',
+      },
+      {
+        'icon': 'assets/images/thanks.png',
+        'title': 'आभार',
+        'voice': 'thank_h.mp3',
+      },
+      {
+        'icon': 'assets/images/bye-icon.png',
+        'title': 'अलविदा',
+        'voice': 'bye_h.mp3',
+      },
+      {
         'icon': 'assets/images/medicine.png',
         'title': 'दवा',
         'voice': 'medicine_h.mp3',
@@ -125,6 +185,36 @@ class _DailyActionScreenState extends State<DailyActionScreen> {
       },
     ],
     'Gujarati': [
+      {
+        'icon': 'assets/images/morning.png',
+        'title': 'સુપ્રભાત',
+        'voice': 'morning_g.mp3',
+      },
+      {
+        'icon': 'assets/images/good_night.png',
+        'title': 'શુભ રાત્રિ',
+        'voice': 'night_g.mp3',
+      },
+      {
+        'icon': 'assets/images/welcome.png',
+        'title': 'આવકાર',
+        'voice': 'welcome_g.mp3',
+      },
+      {
+        'icon': 'assets/images/hello.png',
+        'title': 'નમસ્તે',
+        'voice': 'hello_g.mp3',
+      },
+      {
+        'icon': 'assets/images/thanks.png',
+        'title': 'આભાર',
+        'voice': 'thank_g.mp3',
+      },
+      {
+        'icon': 'assets/images/bye-icon.png',
+        'title': 'આવજો',
+        'voice': 'bye_g.mp3',
+      },
       {
         'icon': 'assets/images/medicine.png',
         'title': 'દવા',

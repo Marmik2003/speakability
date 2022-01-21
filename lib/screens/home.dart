@@ -59,13 +59,13 @@ class _HomeScreenState extends State<HomeScreen> {
     ],
     'Gujarati': [
       {
-        'title': 'દિવસ કર્યાની કર્યાં',
+        'title': 'દૈનિક પ્રવૃતિઓ',
         'path': '/daily_actions',
         'color': Colors.blue,
         'icon': Icons.calendar_today,
       },
       {
-        'title': 'શૈકશ્યની કર્યાં',
+        'title': 'શાળાકીય પ્રવૃત્તિઓ',
         'path': '/school_activities',
         'color': Colors.green,
         'icon': Icons.school,
